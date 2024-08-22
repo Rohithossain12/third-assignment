@@ -125,7 +125,7 @@
                 light.
               </p>
               <button
-                class="bg-third px-36 py-3 text-lg font-bold lg:px-7 lg:py-3 rounded-full"
+                class="bg-third w-full lg:w-auto lg:px-6 py-3 text-lg font-bold rounded-full"
               >
                 View Details
                 <span
@@ -142,8 +142,83 @@
 
     <!--Main Section Start  -->
     <main>
+      <!-- We design thoughtful section start -->
+      <section class="bg-[#F4F4F4] pb-20 mt-10">
+        <div
+          class="container mx-auto flex flex-col lg:flex-row gap-5 justify-around"
+        >
+          <!-- text content -->
+          <div>
+            <div class="pt-3">
+              <img
+                class="border-dashed border-2 border-slate-300 px-3 py-3 lg:block hidden"
+                src="assets/Vector.png"
+                alt=""
+              />
+            </div>
+            <div class="space-y-5 text-center lg:text-start">
+              <button class="mt-3 bg-white px-3 py-2 rounded-full">
+                <span><i class="fa-solid fa-arrow-right"></i></span>
+                About Us
+              </button>
+              <h1 class="text-4xl lg:text-5xl font-bold">
+                We design thoughtful,<br />
+                liveable spaces
+              </h1>
+              <p class="text-sm">
+                The barn house captivates with its blend of rustic charm and<br />
+                modern sophistication, featuring weathered wood, sleek metal
+                accents.
+              </p>
+            </div>
+            <div class="space-y-5 mt-4">
+              <!-- card 1 -->
+              <div
+                class="flex bg-white gap-4 px-5 py-10 rounded-xl shadow-lg w-[500px] mx-auto lg:w-full"
+              >
+                <img src="assets/commercial.png" alt="" />
+                <div class="flex-col">
+                  <di class="text-xl font-bold"><h3>Commercial</h3></di>
+                  <div>
+                    <p class="">
+                      The barn house captivates with its blend of rustic charm
+                      and modern.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- card 2 -->
+              <div
+                class="flex bg-white gap-4 px-5 py-10 rounded-xl shadow-lg lg:w-ull w-[500px] lg:w-full mx-auto"
+              >
+                <img src="assets/residential.png" alt="" />
+                <div class="flex-col">
+                  <div class="text-xl font-bold"><h3>Residential</h3></div>
+                  <div>
+                    <p>
+                      The barn house captivates with its blend of rustic charm
+                      and modern.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- image content -->
+          <div class="pt-16">
+            <img
+              class="w-[500px] h-[300px] lg:w-full lg:h-full mx-auto"
+              src="assets/Rectangle.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <!-- Our Latest Portfolio section -->
+      section
       <!-- Our Works Process -->
-      <section class="mt-20 bg-[#F4F4F4]">
+      <section class="bg-[#F4F4F4]">
         <div class="container mx-auto items-center text-center p-10 space-y-4">
           <button class="bg-white py-1.5 px-4 rounded-full font-semibold">
             <span> <i class="fa-solid fa-arrow-right mr-2"></i></span>How we
@@ -197,278 +272,272 @@
       <!-- Challenging Part -->
 
       <section class="bg-[#F4F4F4]">
-        <section class="py-10 bg-body w-11/12 mx-auto">
-          <div>
-            <div class="flex flex-col justify-center items-center gap-2">
-              <img class="w-20" src="images/leaf01.png" alt="" />
-              <h2 class="text-3xl font-semibold">Our Best Design</h2>
+        <div class="py-10 bg-body w-11/12 mx-auto">
+          <div class="flex flex-col justify-center items-center gap-2">
+            <img class="w-20" src="images/leaf01.png" alt="" />
+            <h2 class="text-3xl font-semibold">Our Best Design</h2>
+          </div>
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-10"
+          >
+            <!--Card 1  -->
+            <div class="card bg-base-100 w-full shadow-xl mt-12">
+              <figure class="px-10 pt-10">
+                <img src="./assets/img2.png" alt="Shoes" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h4>Rinterio</h4>
+                <h2 class="card-title capitalize text-body_neutral">
+                  Barn in Witham
+                </h2>
+                <p class="text-yellow-400">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </p>
+                <p class="text-lg font-semibold">$399</p>
+                <div class="card-actions">
+                  <button
+                    class="bg-green-300 hover:bg-blue-500 py-2 rounded-lg px-2 text-sm transform duration-300"
+                  >
+                    <span>Book Consult</span>
+                    <i
+                      class="fa-solid fa-arrow-right -rotate-45 p-1.5 bg-black text-white rounded-full"
+                    ></i>
+                  </button>
+                </div>
+              </div>
             </div>
-            <div
-              class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-10"
-            >
-              <!--Card 1  -->
-              <div class="card bg-base-100 w-full shadow-xl mt-12">
-                <figure class="px-10 pt-10">
-                  <img src="./assets/img2.png" alt="Shoes" class="rounded-xl" />
-                </figure>
-                <div class="card-body items-center text-center">
-                  <h4>Rinterio</h4>
-                  <h2 class="card-title capitalize text-body_neutral">
-                    Barn in Witham
-                  </h2>
-                  <p class="text-yellow-400">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                  </p>
-                  <p class="text-lg font-semibold">$399</p>
-                  <div class="card-actions">
-                    <button
-                      class="flex gap-3 rounded-md hover:bg-primary items-center bg-accent text-white px-10 py-4"
-                    >
-                      <span>Book Consult</span>
-                      <i
-                        class="fa-solid fa-arrow-right -rotate-45 p-1.5 bg-secondary rounded-full"
-                      ></i>
-                    </button>
-                  </div>
+            <!-- Card 2 -->
+            <div class="card bg-base-100 w-full shadow-xl mt-12">
+              <figure class="px-10 pt-10">
+                <img
+                  src="./assets/article3.png"
+                  alt="Shoes"
+                  class="rounded-xl"
+                />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h4>Rinterio</h4>
+                <h2 class="card-title capitalize text-body_neutral">
+                  Barn in Braintree
+                </h2>
+                <p class="text-yellow-400">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </p>
+                <p class="text-lg font-semibold">$799</p>
+                <div class="card-actions">
+                  <button
+                    class="bg-green-300 hover:bg-blue-500 py-2 rounded-lg px-2 text-sm transform duration-300"
+                  >
+                    <span>Book Consult</span>
+                    <i
+                      class="fa-solid fa-arrow-right -rotate-45 p-1.5 bg-black text-white rounded-full"
+                    ></i>
+                  </button>
                 </div>
               </div>
-              <!-- Card 2 -->
-              <div class="card bg-base-100 w-full shadow-xl mt-12">
-                <figure class="px-10 pt-10">
-                  <img
-                    src="./assets/article3.png"
-                    alt="Shoes"
-                    class="rounded-xl"
-                  />
-                </figure>
-                <div class="card-body items-center text-center">
-                  <h4>Rinterio</h4>
-                  <h2 class="card-title capitalize text-body_neutral">
-                    Barn in Braintree
-                  </h2>
-                  <p class="text-yellow-400">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                  </p>
-                  <p class="text-lg font-semibold">$799</p>
-                  <div class="card-actions">
-                    <button
-                      class="flex gap-3 rounded-md hover:bg-primary items-center bg-accent text-white px-10 py-4"
-                    >
-                      <span>Book Consult</span>
-                      <i
-                        class="fa-solid fa-arrow-right -rotate-45 p-1.5 bg-secondary rounded-full"
-                      ></i>
-                    </button>
-                  </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="card bg-base-100 w-full shadow-xl mt-12">
+              <figure class="px-10 pt-10">
+                <img
+                  src="./assets/article2.png"
+                  alt="Shoes"
+                  class="rounded-xl"
+                />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h4>Rinterio</h4>
+                <h2 class="card-title capitalize text-body_neutral">
+                  Home in Rayne
+                </h2>
+                <p class="text-yellow-400">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </p>
+                <p class="text-lg font-semibold">$499</p>
+                <div class="card-actions">
+                  <button
+                    class="bg-green-300 hover:bg-blue-500 py-2 rounded-lg px-2 text-sm transform duration-300"
+                  >
+                    <span>Book Consult</span>
+                    <i
+                      class="fa-solid fa-arrow-right -rotate-45 p-1.5 bg-black text-white rounded-full"
+                    ></i>
+                  </button>
                 </div>
               </div>
-              <!-- Card 3 -->
-              <div class="card bg-base-100 w-full shadow-xl mt-12">
-                <figure class="px-10 pt-10">
-                  <img
-                    src="./assets/article2.png"
-                    alt="Shoes"
-                    class="rounded-xl"
-                  />
-                </figure>
-                <div class="card-body items-center text-center">
-                  <h4>Rinterio</h4>
-                  <h2 class="card-title capitalize text-body_neutral">
-                    Home in Rayne
-                  </h2>
-                  <p class="text-yellow-400">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                  </p>
-                  <p class="text-lg font-semibold">$499</p>
-                  <div class="card-actions">
-                    <button
-                      class="flex gap-3 rounded-md hover:bg-primary items-center bg-accent text-white px-10 py-4"
-                    >
-                      <span>Book Consult</span>
-                      <i
-                        class="fa-solid fa-arrow-right -rotate-45 p-1.5 bg-secondary rounded-full"
-                      ></i>
-                    </button>
-                  </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="card bg-base-100 w-full shadow-xl mt-12">
+              <figure class="px-10 pt-10">
+                <img
+                  src="./assets/article1.png"
+                  alt="Shoes"
+                  class="rounded-xl"
+                />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h4>Rinterio</h4>
+                <h2 class="card-title capitalize text-body_neutral">
+                  Home in Gosfield
+                </h2>
+                <p class="text-yellow-400">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </p>
+                <p class="text-lg font-semibold">$365</p>
+                <div class="card-actions">
+                  <button
+                    class="bg-green-300 hover:bg-blue-500 py-2 rounded-lg px-2 text-sm transform duration-300"
+                  >
+                    <span>Book Consult</span>
+                    <i
+                      class="fa-solid fa-arrow-right -rotate-45 p-1.5 bg-black text-white rounded-full"
+                    ></i>
+                  </button>
                 </div>
               </div>
-              <!-- Card 4 -->
-              <div class="card bg-base-100 w-full shadow-xl mt-12">
-                <figure class="px-10 pt-10">
-                  <img
-                    src="./assets/article1.png"
-                    alt="Shoes"
-                    class="rounded-xl"
-                  />
-                </figure>
-                <div class="card-body items-center text-center">
-                  <h4>Rinterio</h4>
-                  <h2 class="card-title capitalize text-body_neutral">
-                    Home in Gosfield
-                  </h2>
-                  <p class="text-yellow-400">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                  </p>
-                  <p class="text-lg font-semibold">$365</p>
-                  <div class="card-actions">
-                    <button
-                      class="flex gap-3 rounded-md hover:bg-primary items-center bg-accent text-white px-10 py-4"
-                    >
-                      <span>Book Consult</span>
-                      <i
-                        class="fa-solid fa-arrow-right -rotate-45 p-1.5 bg-secondary rounded-full"
-                      ></i>
-                    </button>
-                  </div>
+            </div>
+            <!-- Card 5 -->
+            <div class="card bg-base-100 w-f shadow-xl mt-12">
+              <figure class="px-10 pt-10">
+                <img
+                  src="./assets/article3.png"
+                  alt="Shoes"
+                  class="rounded-xl"
+                />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h4>Rinterio</h4>
+                <h2 class="card-title capitalize text-body_neutral">
+                  Cottage in Essex
+                </h2>
+                <p class="text-yellow-400">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </p>
+                <p class="text-lg font-semibold">$177</p>
+                <div class="card-actions">
+                  <button
+                    class="bg-green-300 hover:bg-blue-500 py-2 rounded-lg px-2 text-sm transform duration-300"
+                  >
+                    <span>Book Consult</span>
+                    <i
+                      class="fa-solid fa-arrow-right -rotate-45 p-1.5 bg-black text-white rounded-full"
+                    ></i>
+                  </button>
                 </div>
               </div>
-              <!-- Card 5 -->
-              <div class="card bg-base-100 w-full shadow-xl mt-12">
-                <figure class="px-10 pt-10">
-                  <img
-                    src="./assets/article3.png"
-                    alt="Shoes"
-                    class="rounded-xl"
-                  />
-                </figure>
-                <div class="card-body items-center text-center">
-                  <h4>Rinterio</h4>
-                  <h2 class="card-title capitalize text-body_neutral">
-                    Cottage in Essex
-                  </h2>
-                  <p class="text-yellow-400">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                  </p>
-                  <p class="text-lg font-semibold">$177</p>
-                  <div class="card-actions">
-                    <button
-                      class="flex gap-3 rounded-md hover:bg-primary items-center bg-accent text-white px-10 py-4"
-                    >
-                      <span>Book Consult</span>
-                      <i
-                        class="fa-solid fa-arrow-right -rotate-45 p-1.5 bg-secondary rounded-full"
-                      ></i>
-                    </button>
-                  </div>
+            </div>
+            <!-- Card 6 -->
+            <div class="card bg-base-100 w-full shadow-xl mt-12">
+              <figure class="px-10 pt-10">
+                <img src="./assets/banner.png" alt="Shoes" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h4>Rinterio</h4>
+                <h2 class="card-title capitalize text-body_neutral">
+                  Barn in Villa
+                </h2>
+                <p class="text-yellow-400">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </p>
+                <p class="text-lg font-semibold">$362</p>
+                <div class="card-actions">
+                  <button
+                    class="bg-green-300 hover:bg-blue-500 py-2 rounded-lg px-2 text-sm transform duration-300"
+                  >
+                    <span>Book Consult</span>
+                    <i
+                      class="fa-solid fa-arrow-right -rotate-45 p-1.5 bg-black text-white rounded-full"
+                    ></i>
+                  </button>
                 </div>
               </div>
-              <!-- Card 6 -->
-              <div class="card bg-base-100 w-full shadow-xl mt-12">
-                <figure class="px-10 pt-10">
-                  <img
-                    src="./assets/banner.png"
-                    alt="Shoes"
-                    class="rounded-xl"
-                  />
-                </figure>
-                <div class="card-body items-center text-center">
-                  <h4>Rinterio</h4>
-                  <h2 class="card-title capitalize text-body_neutral">
-                    Barn in Villa
-                  </h2>
-                  <p class="text-yellow-400">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                  </p>
-                  <p class="text-lg font-semibold">$362</p>
-                  <div class="card-actions">
-                    <button
-                      class="flex gap-3 rounded-md hover:bg-primary items-center bg-accent text-white px-10 py-4"
-                    >
-                      <span>Book Consult</span>
-                      <i
-                        class="fa-solid fa-arrow-right -rotate-45 p-1.5 bg-secondary rounded-full"
-                      ></i>
-                    </button>
-                  </div>
+            </div>
+            <!-- Card 7 -->
+            <div class="card bg-base-100 w-full shadow-xl mt-12">
+              <figure class="px-10 pt-10">
+                <img src="./assets/article1.png" alt="" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h4>Rinterio</h4>
+                <h2 class="card-title capitalize text-body_neutral">
+                  Cottage in Stisted
+                </h2>
+                <p class="text-yellow-400">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </p>
+                <p class="text-lg font-semibold">$438</p>
+                <div class="card-actions">
+                  <button
+                    class="bg-green-300 hover:bg-blue-500 py-2 rounded-lg px-2 text-sm transform duration-300"
+                  >
+                    <span>Book Consult</span>
+                    <i
+                      class="fa-solid fa-arrow-right -rotate-45 p-1.5 bg-black text-white rounded-full"
+                    ></i>
+                  </button>
                 </div>
               </div>
-              <!-- Card 7 -->
-              <div class="card bg-base-100 w-full shadow-xl mt-12">
-                <figure class="px-10 pt-10">
-                  <img src="./assets/article1.png" alt="" class="rounded-xl" />
-                </figure>
-                <div class="card-body items-center text-center">
-                  <h4>Rinterio</h4>
-                  <h2 class="card-title capitalize text-body_neutral">
-                    Cottage in Stisted
-                  </h2>
-                  <p class="text-yellow-400">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                  </p>
-                  <p class="text-lg font-semibold">$438</p>
-                  <div class="card-actions">
-                    <button
-                      class="flex gap-3 rounded-md hover:bg-primary items-center bg-accent text-white px-10 py-4"
-                    >
-                      <span>Book Consult</span>
-                      <i
-                        class="fa-solid fa-arrow-right -rotate-45 p-1.5 bg-secondary rounded-full"
-                      ></i>
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <!--Card 8  -->
-              <div class="card bg-base-100 w-full shadow-xl mt-12">
-                <figure class="px-10 pt-10">
-                  <img src="./assets/img2.png" alt="" class="rounded-xl" />
-                </figure>
-                <div class="card-body items-center text-center">
-                  <h4>Rinterio</h4>
-                  <h2 class="card-title capitalize text-body_neutral">
-                    Cottage in Hitcham
-                  </h2>
-                  <p class="text-yellow-400">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                  </p>
-                  <p class="text-lg font-semibold">$193</p>
-                  <div class="card-actions">
-                    <button
-                      class="flex gap-3 rounded-md hover:bg-primary items-center bg-accent text-white px-10 py-4"
-                    >
-                      <span>Book Consult</span>
-                      <i
-                        class="fa-solid fa-arrow-right -rotate-45 p-1.5 bg-secondary rounded-full"
-                      ></i>
-                    </button>
-                  </div>
+            </div>
+            <!--Card 8  -->
+            <div class="card bg-base-100 w-full shadow-xl mt-12">
+              <figure class="px-10 pt-10">
+                <img src="./assets/img2.png" alt="" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h4>Rinterio</h4>
+                <h2 class="card-title capitalize text-body_neutral">
+                  Cottage in Hitcham
+                </h2>
+                <p class="text-yellow-400">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </p>
+                <p class="text-lg font-semibold">$193</p>
+                <div class="card-actions">
+                  <button
+                    class="bg-green-300 hover:bg-blue-500 py-2 rounded-lg px-2 text-sm transform duration-300"
+                  >
+                    <span>Book Consult</span>
+                    <i
+                      class="fa-solid fa-arrow-right -rotate-45 p-1.5 bg-black text-white rounded-full"
+                    ></i>
+                  </button>
                 </div>
               </div>
             </div>
           </div>
-        </section>
+        </div>
       </section>
     </main>
     <!--Footer Section Start  -->
